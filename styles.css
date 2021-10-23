@@ -1,11 +1,53 @@
 body {
     background-color: black;
+    font-size: 10px;
 }
 #post {
     background-color: white;
-    margin: auto
+    width: 30%;
+    height: 30%;
+    margin: auto;
+    margin-top: auto;
 }
 img {
-    width: 100px;
-    height: 100px;
+    width: 30px;
+    height: 30px;
+}
+
+#top {
+    flex-direction: row;
+
+}
+
+div#top {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#postImage {
+    width: 100%;
+    height: 100%;
+}
+
+div#heartShareCommentBookmark {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#info {
+    flex-direction: column;
+}
+
+#topLeft {
+    display: flex;
+}
+
+#bottomText {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#descriptionText {
+    padding-bottom: 20px;
 }
