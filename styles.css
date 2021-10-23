@@ -1,6 +1,7 @@
 body {
     background-color: black;
     font-size: 10px;
+    font-family: 'Karla', sans-serif;
 }
 #post {
     background-color: white;
